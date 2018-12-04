@@ -1,0 +1,6 @@
+framework module Pods_QR_CODE_RUNTests {
+  umbrella header "Pods-QR-CODE-RUNTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

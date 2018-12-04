@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0B6EC4C821B19E2300F523BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EC4C721B19E2300F523BF /* AppDelegate.swift */; };
-		0B6EC4CA21B19E2300F523BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EC4C921B19E2300F523BF /* ViewController.swift */; };
 		0B6EC4CD21B19E2300F523BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6EC4CB21B19E2300F523BF /* Main.storyboard */; };
 		0B6EC4CF21B19E2800F523BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6EC4CE21B19E2800F523BF /* Assets.xcassets */; };
 		0B6EC4D221B19E2800F523BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6EC4D021B19E2800F523BF /* LaunchScreen.storyboard */; };
 		0B6EC4DD21B19E2800F523BF /* QR_CODE_RUNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EC4DC21B19E2800F523BF /* QR_CODE_RUNTests.swift */; };
 		0B6EC4E821B19E2800F523BF /* QR_CODE_RUNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EC4E721B19E2800F523BF /* QR_CODE_RUNUITests.swift */; };
+		3996C702918ECAEC6A40DA1A /* Pods_QR_CODE_RUNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E4F4D4C11588DEF77ABA8F /* Pods_QR_CODE_RUNTests.framework */; };
+		A0FFEBD656AD3B681607EC6F /* Pods_QR_CODE_RUN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB827AF6F0CB0281AC87BB4 /* Pods_QR_CODE_RUN.framework */; };
+		CAB57D9421B5541000F8C696 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAB57D9321B5541000F8C696 /* GoogleService-Info.plist */; };
+		CAB57D9621B5563700F8C696 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57D9521B5563700F8C696 /* Member.swift */; };
+		CAB57D9C21B5580700F8C696 /* MemberManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57D9B21B5580700F8C696 /* MemberManager.swift */; };
+		CAB57D9E21B56C0900F8C696 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57D9D21B56C0900F8C696 /* UserManager.swift */; };
+		CAB57DA021B571B100F8C696 /* MemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57D9F21B571B100F8C696 /* MemberViewController.swift */; };
+		CAB57DA321B573A100F8C696 /* LoginTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57DA221B573A100F8C696 /* LoginTableViewCell.swift */; };
+		CAB57DA521B5744100F8C696 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57DA421B5744100F8C696 /* LoginViewController.swift */; };
+		CAB57DD621B62C4500F8C696 /* QRScaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57DD521B62C4500F8C696 /* QRScaner.swift */; };
+		CAB57DD821B62DF700F8C696 /* QRScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57DD721B62DF700F8C696 /* QRScanViewController.swift */; };
+		CF36518785E5D4407727D15A /* Pods_QR_CODE_RUNUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CC8E90260FA721FC5FA524 /* Pods_QR_CODE_RUNUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018B3AC9A811360A571C61A9 /* Pods-QR-CODE-RUN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR-CODE-RUN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QR-CODE-RUN/Pods-QR-CODE-RUN.debug.xcconfig"; sourceTree = "<group>"; };
 		0B6EC4C421B19E2300F523BF /* QR-CODE-RUN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR-CODE-RUN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6EC4C721B19E2300F523BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0B6EC4C921B19E2300F523BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B6EC4CC21B19E2300F523BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B6EC4CE21B19E2800F523BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B6EC4D121B19E2800F523BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,23 @@
 		0B6EC4E321B19E2800F523BF /* QR-CODE-RUNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR-CODE-RUNUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6EC4E721B19E2800F523BF /* QR_CODE_RUNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_CODE_RUNUITests.swift; sourceTree = "<group>"; };
 		0B6EC4E921B19E2800F523BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1646C56411B87E9C2BFDD393 /* Pods-QR-CODE-RUN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR-CODE-RUN.release.xcconfig"; path = "Pods/Target Support Files/Pods-QR-CODE-RUN/Pods-QR-CODE-RUN.release.xcconfig"; sourceTree = "<group>"; };
+		17E4F4D4C11588DEF77ABA8F /* Pods_QR_CODE_RUNTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_CODE_RUNTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A69BE69161A12CD542A468E /* Pods-QR-CODE-RUNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR-CODE-RUNTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QR-CODE-RUNTests/Pods-QR-CODE-RUNTests.release.xcconfig"; sourceTree = "<group>"; };
+		65A9831C468CC873A0EB4EBE /* Pods-QR-CODE-RUNUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR-CODE-RUNUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QR-CODE-RUNUITests/Pods-QR-CODE-RUNUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		65CC8E90260FA721FC5FA524 /* Pods_QR_CODE_RUNUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_CODE_RUNUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F78BFA093826CC2E5CEF475 /* Pods-QR-CODE-RUNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR-CODE-RUNTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QR-CODE-RUNTests/Pods-QR-CODE-RUNTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDB827AF6F0CB0281AC87BB4 /* Pods_QR_CODE_RUN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_CODE_RUN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB57D9321B5541000F8C696 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CAB57D9521B5563700F8C696 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		CAB57D9B21B5580700F8C696 /* MemberManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberManager.swift; sourceTree = "<group>"; };
+		CAB57D9D21B56C0900F8C696 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		CAB57D9F21B571B100F8C696 /* MemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberViewController.swift; sourceTree = "<group>"; };
+		CAB57DA221B573A100F8C696 /* LoginTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewCell.swift; sourceTree = "<group>"; };
+		CAB57DA421B5744100F8C696 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CAB57DD521B62C4500F8C696 /* QRScaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScaner.swift; sourceTree = "<group>"; };
+		CAB57DD721B62DF700F8C696 /* QRScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanViewController.swift; sourceTree = "<group>"; };
+		FCA42FEA521B3F297CA02172 /* Pods-QR-CODE-RUNUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR-CODE-RUNUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QR-CODE-RUNUITests/Pods-QR-CODE-RUNUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0FFEBD656AD3B681607EC6F /* Pods_QR_CODE_RUN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3996C702918ECAEC6A40DA1A /* Pods_QR_CODE_RUNTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF36518785E5D4407727D15A /* Pods_QR_CODE_RUNUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,8 @@
 				0B6EC4DB21B19E2800F523BF /* QR-CODE-RUNTests */,
 				0B6EC4E621B19E2800F523BF /* QR-CODE-RUNUITests */,
 				0B6EC4C521B19E2300F523BF /* Products */,
+				2A2A3E0C5356721E6A350DAA /* Pods */,
+				28005933648929084E61B49F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +130,18 @@
 		0B6EC4C621B19E2300F523BF /* QR-CODE-RUN */ = {
 			isa = PBXGroup;
 			children = (
+				CAB57DA121B5737B00F8C696 /* Login */,
+				CAB57DD921B630DD00F8C696 /* QRScan */,
+				CAB57D9321B5541000F8C696 /* GoogleService-Info.plist */,
 				0B6EC4C721B19E2300F523BF /* AppDelegate.swift */,
-				0B6EC4C921B19E2300F523BF /* ViewController.swift */,
 				0B6EC4CB21B19E2300F523BF /* Main.storyboard */,
-				0B6EC4CE21B19E2800F523BF /* Assets.xcassets */,
+				CAB57D9F21B571B100F8C696 /* MemberViewController.swift */,
 				0B6EC4D021B19E2800F523BF /* LaunchScreen.storyboard */,
 				0B6EC4D321B19E2800F523BF /* Info.plist */,
+				CAB57D9521B5563700F8C696 /* Member.swift */,
+				CAB57D9B21B5580700F8C696 /* MemberManager.swift */,
+				CAB57D9D21B56C0900F8C696 /* UserManager.swift */,
+				0B6EC4CE21B19E2800F523BF /* Assets.xcassets */,
 			);
 			path = "QR-CODE-RUN";
 			sourceTree = "<group>";
@@ -125,6 +164,47 @@
 			path = "QR-CODE-RUNUITests";
 			sourceTree = "<group>";
 		};
+		28005933648929084E61B49F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDB827AF6F0CB0281AC87BB4 /* Pods_QR_CODE_RUN.framework */,
+				17E4F4D4C11588DEF77ABA8F /* Pods_QR_CODE_RUNTests.framework */,
+				65CC8E90260FA721FC5FA524 /* Pods_QR_CODE_RUNUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A2A3E0C5356721E6A350DAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				018B3AC9A811360A571C61A9 /* Pods-QR-CODE-RUN.debug.xcconfig */,
+				1646C56411B87E9C2BFDD393 /* Pods-QR-CODE-RUN.release.xcconfig */,
+				7F78BFA093826CC2E5CEF475 /* Pods-QR-CODE-RUNTests.debug.xcconfig */,
+				1A69BE69161A12CD542A468E /* Pods-QR-CODE-RUNTests.release.xcconfig */,
+				65A9831C468CC873A0EB4EBE /* Pods-QR-CODE-RUNUITests.debug.xcconfig */,
+				FCA42FEA521B3F297CA02172 /* Pods-QR-CODE-RUNUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CAB57DA121B5737B00F8C696 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CAB57DA221B573A100F8C696 /* LoginTableViewCell.swift */,
+				CAB57DA421B5744100F8C696 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CAB57DD921B630DD00F8C696 /* QRScan */ = {
+			isa = PBXGroup;
+			children = (
+				CAB57DD721B62DF700F8C696 /* QRScanViewController.swift */,
+				CAB57DD521B62C4500F8C696 /* QRScaner.swift */,
+			);
+			path = QRScan;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B6EC4EC21B19E2800F523BF /* Build configuration list for PBXNativeTarget "QR-CODE-RUN" */;
 			buildPhases = (
+				96E7F39C52D87909960CB39D /* [CP] Check Pods Manifest.lock */,
 				0B6EC4C021B19E2200F523BF /* Sources */,
 				0B6EC4C121B19E2200F523BF /* Frameworks */,
 				0B6EC4C221B19E2200F523BF /* Resources */,
+				7858B848BCA3AEDCEE753D0C /* [CP] Embed Pods Frameworks */,
+				958CD5DE28270CE82B9F2FED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B6EC4EF21B19E2800F523BF /* Build configuration list for PBXNativeTarget "QR-CODE-RUNTests" */;
 			buildPhases = (
+				59BF7AC49F0C6BF7689F50C2 /* [CP] Check Pods Manifest.lock */,
 				0B6EC4D421B19E2800F523BF /* Sources */,
 				0B6EC4D521B19E2800F523BF /* Frameworks */,
 				0B6EC4D621B19E2800F523BF /* Resources */,
@@ -167,6 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B6EC4F221B19E2800F523BF /* Build configuration list for PBXNativeTarget "QR-CODE-RUNUITests" */;
 			buildPhases = (
+				47AF07243A0C49333FC818A0 /* [CP] Check Pods Manifest.lock */,
 				0B6EC4DF21B19E2800F523BF /* Sources */,
 				0B6EC4E021B19E2800F523BF /* Frameworks */,
 				0B6EC4E121B19E2800F523BF /* Resources */,
@@ -230,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B6EC4D221B19E2800F523BF /* LaunchScreen.storyboard in Resources */,
+				CAB57D9421B5541000F8C696 /* GoogleService-Info.plist in Resources */,
 				0B6EC4CF21B19E2800F523BF /* Assets.xcassets in Resources */,
 				0B6EC4CD21B19E2300F523BF /* Main.storyboard in Resources */,
 			);
@@ -251,13 +337,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47AF07243A0C49333FC818A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QR-CODE-RUNUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59BF7AC49F0C6BF7689F50C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QR-CODE-RUNTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7858B848BCA3AEDCEE753D0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QR-CODE-RUN/Pods-QR-CODE-RUN-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QR-CODE-RUN/Pods-QR-CODE-RUN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		958CD5DE28270CE82B9F2FED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QR-CODE-RUN/Pods-QR-CODE-RUN-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QR-CODE-RUN/Pods-QR-CODE-RUN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96E7F39C52D87909960CB39D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QR-CODE-RUN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B6EC4C021B19E2200F523BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B6EC4CA21B19E2300F523BF /* ViewController.swift in Sources */,
+				CAB57DA521B5744100F8C696 /* LoginViewController.swift in Sources */,
+				CAB57D9C21B5580700F8C696 /* MemberManager.swift in Sources */,
+				CAB57DD821B62DF700F8C696 /* QRScanViewController.swift in Sources */,
+				CAB57DA021B571B100F8C696 /* MemberViewController.swift in Sources */,
+				CAB57DD621B62C4500F8C696 /* QRScaner.swift in Sources */,
+				CAB57D9E21B56C0900F8C696 /* UserManager.swift in Sources */,
 				0B6EC4C821B19E2300F523BF /* AppDelegate.swift in Sources */,
+				CAB57D9621B5563700F8C696 /* Member.swift in Sources */,
+				CAB57DA321B573A100F8C696 /* LoginTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,10 +658,11 @@
 		};
 		0B6EC4ED21B19E2800F523BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018B3AC9A811360A571C61A9 /* Pods-QR-CODE-RUN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UZZ5WC8E2Y;
+				DEVELOPMENT_TEAM = BV8VP6YGE9;
 				INFOPLIST_FILE = "QR-CODE-RUN/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +677,11 @@
 		};
 		0B6EC4EE21B19E2800F523BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1646C56411B87E9C2BFDD393 /* Pods-QR-CODE-RUN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UZZ5WC8E2Y;
+				DEVELOPMENT_TEAM = BV8VP6YGE9;
 				INFOPLIST_FILE = "QR-CODE-RUN/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +696,7 @@
 		};
 		0B6EC4F021B19E2800F523BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F78BFA093826CC2E5CEF475 /* Pods-QR-CODE-RUNTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +718,7 @@
 		};
 		0B6EC4F121B19E2800F523BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A69BE69161A12CD542A468E /* Pods-QR-CODE-RUNTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +740,7 @@
 		};
 		0B6EC4F321B19E2800F523BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65A9831C468CC873A0EB4EBE /* Pods-QR-CODE-RUNUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +761,7 @@
 		};
 		0B6EC4F421B19E2800F523BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCA42FEA521B3F297CA02172 /* Pods-QR-CODE-RUNUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
