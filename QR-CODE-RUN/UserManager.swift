@@ -36,9 +36,15 @@ class UserManager {
         return scannedQRArrayRelay.asObservable()
     }
     
+    private var scannedMeArrayRelay = BehaviorRelay<[String]>(value: [])
+    var scnnedMeArray: Observable<[String]> {
+        return scannedMeArrayRelay.asObservable()
+    }
+    
     var usersMemberDataListener: ListenerRegistration?
     var userQRStringListener: ListenerRegistration?
     var scannedQRListener: ListenerRegistration?
+    var scannedMeListener: ListenerRegistration?
     
     private init() {
     }
@@ -123,6 +129,22 @@ class UserManager {
                 scannedQR.append(document.data()["scanTo"] as! String)
             }
             self?.scannedQRArrayRelay.accept(scannedQR)
+        }
+        
+        if let scannedMeListener = scannedMeListener {
+            scannedMeListener.remove()
+        }
+        scannedMeListener = db.collection("Scan").whereField("scanTo", isEqualTo: qrString)
+            .addSnapshotListener { [weak self] (querySnapshot, error) in
+                guard let snapshot = querySnapshot else {
+                    print("Error fetching snapshots: \(error!)")
+                    return
+                }
+                var scannedMe: [String] = []
+                for document in snapshot.documents {
+                    scannedMe.append(document.data()["scanFrom"] as! String)
+                }
+                self?.scannedMeArrayRelay.accept(scannedMe)
         }
     }
     

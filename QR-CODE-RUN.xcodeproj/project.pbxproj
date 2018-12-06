@@ -15,6 +15,8 @@
 		0B6EC4E821B19E2800F523BF /* QR_CODE_RUNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EC4E721B19E2800F523BF /* QR_CODE_RUNUITests.swift */; };
 		3996C702918ECAEC6A40DA1A /* Pods_QR_CODE_RUNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E4F4D4C11588DEF77ABA8F /* Pods_QR_CODE_RUNTests.framework */; };
 		A0FFEBD656AD3B681607EC6F /* Pods_QR_CODE_RUN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB827AF6F0CB0281AC87BB4 /* Pods_QR_CODE_RUN.framework */; };
+		CA0F4B7A21B8E4C700E8A0E1 /* MemberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F4B7921B8E4C700E8A0E1 /* MemberCollectionViewCell.swift */; };
+		CA0F4B7C21B8EB4400E8A0E1 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F4B7B21B8EB4400E8A0E1 /* SettingTableViewController.swift */; };
 		CAB57D9421B5541000F8C696 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAB57D9321B5541000F8C696 /* GoogleService-Info.plist */; };
 		CAB57D9621B5563700F8C696 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57D9521B5563700F8C696 /* Member.swift */; };
 		CAB57D9C21B5580700F8C696 /* MemberManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57D9B21B5580700F8C696 /* MemberManager.swift */; };
@@ -65,6 +67,8 @@
 		65CC8E90260FA721FC5FA524 /* Pods_QR_CODE_RUNUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_CODE_RUNUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F78BFA093826CC2E5CEF475 /* Pods-QR-CODE-RUNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR-CODE-RUNTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QR-CODE-RUNTests/Pods-QR-CODE-RUNTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDB827AF6F0CB0281AC87BB4 /* Pods_QR_CODE_RUN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_CODE_RUN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0F4B7921B8E4C700E8A0E1 /* MemberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCollectionViewCell.swift; sourceTree = "<group>"; };
+		CA0F4B7B21B8EB4400E8A0E1 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		CAB57D9321B5541000F8C696 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CAB57D9521B5563700F8C696 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 		CAB57D9B21B5580700F8C696 /* MemberManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberManager.swift; sourceTree = "<group>"; };
@@ -132,10 +136,10 @@
 			children = (
 				CAB57DA121B5737B00F8C696 /* Login */,
 				CAB57DD921B630DD00F8C696 /* QRScan */,
+				CA0F4B7D21B8EC1900E8A0E1 /* Member */,
 				CAB57D9321B5541000F8C696 /* GoogleService-Info.plist */,
 				0B6EC4C721B19E2300F523BF /* AppDelegate.swift */,
 				0B6EC4CB21B19E2300F523BF /* Main.storyboard */,
-				CAB57D9F21B571B100F8C696 /* MemberViewController.swift */,
 				0B6EC4D021B19E2800F523BF /* LaunchScreen.storyboard */,
 				0B6EC4D321B19E2800F523BF /* Info.plist */,
 				CAB57D9521B5563700F8C696 /* Member.swift */,
@@ -185,6 +189,16 @@
 				FCA42FEA521B3F297CA02172 /* Pods-QR-CODE-RUNUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA0F4B7D21B8EC1900E8A0E1 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				CAB57D9F21B571B100F8C696 /* MemberViewController.swift */,
+				CA0F4B7B21B8EB4400E8A0E1 /* SettingTableViewController.swift */,
+				CA0F4B7921B8E4C700E8A0E1 /* MemberCollectionViewCell.swift */,
+			);
+			path = Member;
 			sourceTree = "<group>";
 		};
 		CAB57DA121B5737B00F8C696 /* Login */ = {
@@ -483,6 +497,8 @@
 				CAB57DA021B571B100F8C696 /* MemberViewController.swift in Sources */,
 				CAB57DD621B62C4500F8C696 /* QRScaner.swift in Sources */,
 				CAB57D9E21B56C0900F8C696 /* UserManager.swift in Sources */,
+				CA0F4B7A21B8E4C700E8A0E1 /* MemberCollectionViewCell.swift in Sources */,
+				CA0F4B7C21B8EB4400E8A0E1 /* SettingTableViewController.swift in Sources */,
 				0B6EC4C821B19E2300F523BF /* AppDelegate.swift in Sources */,
 				CAB57D9621B5563700F8C696 /* Member.swift in Sources */,
 				CAB57DA321B573A100F8C696 /* LoginTableViewCell.swift in Sources */,
