@@ -14,14 +14,4 @@ target 'QR-CODE-RUN' do
     pod 'Firebase/Storage'
     pod 'FirebaseUI/Storage'
 
-  target 'QR-CODE-RUNTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'QR-CODE-RUNUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end

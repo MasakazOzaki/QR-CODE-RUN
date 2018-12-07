@@ -11,10 +11,7 @@
 		0B6EC4CD21B19E2300F523BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6EC4CB21B19E2300F523BF /* Main.storyboard */; };
 		0B6EC4CF21B19E2800F523BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6EC4CE21B19E2800F523BF /* Assets.xcassets */; };
 		0B6EC4D221B19E2800F523BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6EC4D021B19E2800F523BF /* LaunchScreen.storyboard */; };
-		0B6EC4DD21B19E2800F523BF /* QR_CODE_RUNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EC4DC21B19E2800F523BF /* QR_CODE_RUNTests.swift */; };
-		0B6EC4E821B19E2800F523BF /* QR_CODE_RUNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EC4E721B19E2800F523BF /* QR_CODE_RUNUITests.swift */; };
 		0BE38D4721BA574C001A3FDC /* splachView.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE38D4621BA574C001A3FDC /* splachView.png */; };
-		3996C702918ECAEC6A40DA1A /* Pods_QR_CODE_RUNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E4F4D4C11588DEF77ABA8F /* Pods_QR_CODE_RUNTests.framework */; };
 		A0FFEBD656AD3B681607EC6F /* Pods_QR_CODE_RUN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB827AF6F0CB0281AC87BB4 /* Pods_QR_CODE_RUN.framework */; };
 		CA0F4B7A21B8E4C700E8A0E1 /* MemberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F4B7921B8E4C700E8A0E1 /* MemberCollectionViewCell.swift */; };
 		CA0F4B7C21B8EB4400E8A0E1 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F4B7B21B8EB4400E8A0E1 /* SettingTableViewController.swift */; };
@@ -28,25 +25,7 @@
 		CAB57DA521B5744100F8C696 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57DA421B5744100F8C696 /* LoginViewController.swift */; };
 		CAB57DD621B62C4500F8C696 /* QRScaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57DD521B62C4500F8C696 /* QRScaner.swift */; };
 		CAB57DD821B62DF700F8C696 /* QRScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57DD721B62DF700F8C696 /* QRScanViewController.swift */; };
-		CF36518785E5D4407727D15A /* Pods_QR_CODE_RUNUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CC8E90260FA721FC5FA524 /* Pods_QR_CODE_RUNUITests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0B6EC4D921B19E2800F523BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0B6EC4BC21B19E2200F523BF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0B6EC4C321B19E2200F523BF;
-			remoteInfo = "QR-CODE-RUN";
-		};
-		0B6EC4E421B19E2800F523BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0B6EC4BC21B19E2200F523BF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0B6EC4C321B19E2200F523BF;
-			remoteInfo = "QR-CODE-RUN";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		018B3AC9A811360A571C61A9 /* Pods-QR-CODE-RUN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR-CODE-RUN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QR-CODE-RUN/Pods-QR-CODE-RUN.debug.xcconfig"; sourceTree = "<group>"; };
@@ -56,12 +35,6 @@
 		0B6EC4CE21B19E2800F523BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B6EC4D121B19E2800F523BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B6EC4D321B19E2800F523BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B6EC4D821B19E2800F523BF /* QR-CODE-RUNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR-CODE-RUNTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B6EC4DC21B19E2800F523BF /* QR_CODE_RUNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_CODE_RUNTests.swift; sourceTree = "<group>"; };
-		0B6EC4DE21B19E2800F523BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B6EC4E321B19E2800F523BF /* QR-CODE-RUNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR-CODE-RUNUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B6EC4E721B19E2800F523BF /* QR_CODE_RUNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_CODE_RUNUITests.swift; sourceTree = "<group>"; };
-		0B6EC4E921B19E2800F523BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BE38D4621BA574C001A3FDC /* splachView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splachView.png; sourceTree = "<group>"; };
 		1646C56411B87E9C2BFDD393 /* Pods-QR-CODE-RUN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR-CODE-RUN.release.xcconfig"; path = "Pods/Target Support Files/Pods-QR-CODE-RUN/Pods-QR-CODE-RUN.release.xcconfig"; sourceTree = "<group>"; };
 		17E4F4D4C11588DEF77ABA8F /* Pods_QR_CODE_RUNTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_CODE_RUNTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,22 +67,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B6EC4D521B19E2800F523BF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3996C702918ECAEC6A40DA1A /* Pods_QR_CODE_RUNTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0B6EC4E021B19E2800F523BF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF36518785E5D4407727D15A /* Pods_QR_CODE_RUNUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -117,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				0B6EC4C621B19E2300F523BF /* QR-CODE-RUN */,
-				0B6EC4DB21B19E2800F523BF /* QR-CODE-RUNTests */,
-				0B6EC4E621B19E2800F523BF /* QR-CODE-RUNUITests */,
 				0B6EC4C521B19E2300F523BF /* Products */,
 				2A2A3E0C5356721E6A350DAA /* Pods */,
 				28005933648929084E61B49F /* Frameworks */,
@@ -129,8 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				0B6EC4C421B19E2300F523BF /* QR-CODE-RUN.app */,
-				0B6EC4D821B19E2800F523BF /* QR-CODE-RUNTests.xctest */,
-				0B6EC4E321B19E2800F523BF /* QR-CODE-RUNUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,24 +107,6 @@
 				0B6EC4CE21B19E2800F523BF /* Assets.xcassets */,
 			);
 			path = "QR-CODE-RUN";
-			sourceTree = "<group>";
-		};
-		0B6EC4DB21B19E2800F523BF /* QR-CODE-RUNTests */ = {
-			isa = PBXGroup;
-			children = (
-				0B6EC4DC21B19E2800F523BF /* QR_CODE_RUNTests.swift */,
-				0B6EC4DE21B19E2800F523BF /* Info.plist */,
-			);
-			path = "QR-CODE-RUNTests";
-			sourceTree = "<group>";
-		};
-		0B6EC4E621B19E2800F523BF /* QR-CODE-RUNUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0B6EC4E721B19E2800F523BF /* QR_CODE_RUNUITests.swift */,
-				0B6EC4E921B19E2800F523BF /* Info.plist */,
-			);
-			path = "QR-CODE-RUNUITests";
 			sourceTree = "<group>";
 		};
 		28005933648929084E61B49F /* Frameworks */ = {
@@ -248,44 +183,6 @@
 			productReference = 0B6EC4C421B19E2300F523BF /* QR-CODE-RUN.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0B6EC4D721B19E2800F523BF /* QR-CODE-RUNTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0B6EC4EF21B19E2800F523BF /* Build configuration list for PBXNativeTarget "QR-CODE-RUNTests" */;
-			buildPhases = (
-				59BF7AC49F0C6BF7689F50C2 /* [CP] Check Pods Manifest.lock */,
-				0B6EC4D421B19E2800F523BF /* Sources */,
-				0B6EC4D521B19E2800F523BF /* Frameworks */,
-				0B6EC4D621B19E2800F523BF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0B6EC4DA21B19E2800F523BF /* PBXTargetDependency */,
-			);
-			name = "QR-CODE-RUNTests";
-			productName = "QR-CODE-RUNTests";
-			productReference = 0B6EC4D821B19E2800F523BF /* QR-CODE-RUNTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0B6EC4E221B19E2800F523BF /* QR-CODE-RUNUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0B6EC4F221B19E2800F523BF /* Build configuration list for PBXNativeTarget "QR-CODE-RUNUITests" */;
-			buildPhases = (
-				47AF07243A0C49333FC818A0 /* [CP] Check Pods Manifest.lock */,
-				0B6EC4DF21B19E2800F523BF /* Sources */,
-				0B6EC4E021B19E2800F523BF /* Frameworks */,
-				0B6EC4E121B19E2800F523BF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0B6EC4E521B19E2800F523BF /* PBXTargetDependency */,
-			);
-			name = "QR-CODE-RUNUITests";
-			productName = "QR-CODE-RUNUITests";
-			productReference = 0B6EC4E321B19E2800F523BF /* QR-CODE-RUNUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -298,14 +195,6 @@
 				TargetAttributes = {
 					0B6EC4C321B19E2200F523BF = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					0B6EC4D721B19E2800F523BF = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 0B6EC4C321B19E2200F523BF;
-					};
-					0B6EC4E221B19E2800F523BF = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 0B6EC4C321B19E2200F523BF;
 					};
 				};
 			};
@@ -323,8 +212,6 @@
 			projectRoot = "";
 			targets = (
 				0B6EC4C321B19E2200F523BF /* QR-CODE-RUN */,
-				0B6EC4D721B19E2800F523BF /* QR-CODE-RUNTests */,
-				0B6EC4E221B19E2800F523BF /* QR-CODE-RUNUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -343,73 +230,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B6EC4D621B19E2800F523BF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0B6EC4E121B19E2800F523BF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		47AF07243A0C49333FC818A0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QR-CODE-RUNUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		59BF7AC49F0C6BF7689F50C2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QR-CODE-RUNTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7858B848BCA3AEDCEE753D0C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QR-CODE-RUN/Pods-QR-CODE-RUN-frameworks.sh",
@@ -427,8 +254,6 @@
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
@@ -453,17 +278,13 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QR-CODE-RUN/Pods-QR-CODE-RUN-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates-Firestore.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Firestore.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -475,15 +296,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-QR-CODE-RUN-checkManifestLockResult.txt",
 			);
@@ -513,36 +330,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B6EC4D421B19E2800F523BF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B6EC4DD21B19E2800F523BF /* QR_CODE_RUNTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0B6EC4DF21B19E2800F523BF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B6EC4E821B19E2800F523BF /* QR_CODE_RUNUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0B6EC4DA21B19E2800F523BF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0B6EC4C321B19E2200F523BF /* QR-CODE-RUN */;
-			targetProxy = 0B6EC4D921B19E2800F523BF /* PBXContainerItemProxy */;
-		};
-		0B6EC4E521B19E2800F523BF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0B6EC4C321B19E2200F523BF /* QR-CODE-RUN */;
-			targetProxy = 0B6EC4E421B19E2800F523BF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0B6EC4CB21B19E2300F523BF /* Main.storyboard */ = {
@@ -686,7 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BV8VP6YGE9;
+				DEVELOPMENT_TEAM = B4S4333JDW;
 				INFOPLIST_FILE = "QR-CODE-RUN/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -705,7 +493,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BV8VP6YGE9;
+				DEVELOPMENT_TEAM = B4S4333JDW;
 				INFOPLIST_FILE = "QR-CODE-RUN/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -715,92 +503,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		0B6EC4F021B19E2800F523BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F78BFA093826CC2E5CEF475 /* Pods-QR-CODE-RUNTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UZZ5WC8E2Y;
-				INFOPLIST_FILE = "QR-CODE-RUNTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ueao.QR-CODE-RUNTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QR-CODE-RUN.app/QR-CODE-RUN";
-			};
-			name = Debug;
-		};
-		0B6EC4F121B19E2800F523BF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A69BE69161A12CD542A468E /* Pods-QR-CODE-RUNTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UZZ5WC8E2Y;
-				INFOPLIST_FILE = "QR-CODE-RUNTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ueao.QR-CODE-RUNTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QR-CODE-RUN.app/QR-CODE-RUN";
-			};
-			name = Release;
-		};
-		0B6EC4F321B19E2800F523BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65A9831C468CC873A0EB4EBE /* Pods-QR-CODE-RUNUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UZZ5WC8E2Y;
-				INFOPLIST_FILE = "QR-CODE-RUNUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ueao.QR-CODE-RUNUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "QR-CODE-RUN";
-			};
-			name = Debug;
-		};
-		0B6EC4F421B19E2800F523BF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCA42FEA521B3F297CA02172 /* Pods-QR-CODE-RUNUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UZZ5WC8E2Y;
-				INFOPLIST_FILE = "QR-CODE-RUNUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ueao.QR-CODE-RUNUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "QR-CODE-RUN";
 			};
 			name = Release;
 		};
@@ -821,24 +523,6 @@
 			buildConfigurations = (
 				0B6EC4ED21B19E2800F523BF /* Debug */,
 				0B6EC4EE21B19E2800F523BF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0B6EC4EF21B19E2800F523BF /* Build configuration list for PBXNativeTarget "QR-CODE-RUNTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0B6EC4F021B19E2800F523BF /* Debug */,
-				0B6EC4F121B19E2800F523BF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0B6EC4F221B19E2800F523BF /* Build configuration list for PBXNativeTarget "QR-CODE-RUNUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0B6EC4F321B19E2800F523BF /* Debug */,
-				0B6EC4F421B19E2800F523BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
