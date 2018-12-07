@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>687265015363-icar57o9la2vkgmulrmp8cepvm8s35a9.apps.googleusercontent.com</string>
+	<string>687265015363-clumpvllj157g40bqj9im37dghs5o67d.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.687265015363-icar57o9la2vkgmulrmp8cepvm8s35a9</string>
+	<string>com.googleusercontent.apps.687265015363-clumpvllj157g40bqj9im37dghs5o67d</string>
 	<key>API_KEY</key>
 	<string>AIzaSyDMteIVQ3gBoMVooG518vGOstHkmuw1Kg8</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>ueao.QR-CODE-RUN</string>
+	<string>com.swimee.QR-CODE-RUN</string>
 	<key>PROJECT_ID</key>
 	<string>qrscan-bbfb8</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:687265015363:ios:79791f39fbd1032d</string>
+	<string>1:687265015363:ios:6f871519871c6b95</string>
 	<key>DATABASE_URL</key>
 	<string>https://qrscan-bbfb8.firebaseio.com</string>
 </dict>

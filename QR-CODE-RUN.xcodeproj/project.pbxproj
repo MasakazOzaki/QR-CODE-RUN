@@ -12,11 +12,11 @@
 		0B6EC4CF21B19E2800F523BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6EC4CE21B19E2800F523BF /* Assets.xcassets */; };
 		0B6EC4D221B19E2800F523BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6EC4D021B19E2800F523BF /* LaunchScreen.storyboard */; };
 		0BE38D4721BA574C001A3FDC /* splachView.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE38D4621BA574C001A3FDC /* splachView.png */; };
+		46A6297621BA830F0052768B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46A6297521BA830F0052768B /* GoogleService-Info.plist */; };
 		A0FFEBD656AD3B681607EC6F /* Pods_QR_CODE_RUN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB827AF6F0CB0281AC87BB4 /* Pods_QR_CODE_RUN.framework */; };
 		CA0F4B7A21B8E4C700E8A0E1 /* MemberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F4B7921B8E4C700E8A0E1 /* MemberCollectionViewCell.swift */; };
 		CA0F4B7C21B8EB4400E8A0E1 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F4B7B21B8EB4400E8A0E1 /* SettingTableViewController.swift */; };
 		CA0F4B7F21BA353100E8A0E1 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CA0F4B7E21BA353000E8A0E1 /* icon.png */; };
-		CAB57D9421B5541000F8C696 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAB57D9321B5541000F8C696 /* GoogleService-Info.plist */; };
 		CAB57D9621B5563700F8C696 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57D9521B5563700F8C696 /* Member.swift */; };
 		CAB57D9C21B5580700F8C696 /* MemberManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57D9B21B5580700F8C696 /* MemberManager.swift */; };
 		CAB57D9E21B56C0900F8C696 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB57D9D21B56C0900F8C696 /* UserManager.swift */; };
@@ -39,6 +39,7 @@
 		1646C56411B87E9C2BFDD393 /* Pods-QR-CODE-RUN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR-CODE-RUN.release.xcconfig"; path = "Pods/Target Support Files/Pods-QR-CODE-RUN/Pods-QR-CODE-RUN.release.xcconfig"; sourceTree = "<group>"; };
 		17E4F4D4C11588DEF77ABA8F /* Pods_QR_CODE_RUNTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_CODE_RUNTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A69BE69161A12CD542A468E /* Pods-QR-CODE-RUNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR-CODE-RUNTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QR-CODE-RUNTests/Pods-QR-CODE-RUNTests.release.xcconfig"; sourceTree = "<group>"; };
+		46A6297521BA830F0052768B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		65A9831C468CC873A0EB4EBE /* Pods-QR-CODE-RUNUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR-CODE-RUNUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QR-CODE-RUNUITests/Pods-QR-CODE-RUNUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		65CC8E90260FA721FC5FA524 /* Pods_QR_CODE_RUNUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_CODE_RUNUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F78BFA093826CC2E5CEF475 /* Pods-QR-CODE-RUNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR-CODE-RUNTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QR-CODE-RUNTests/Pods-QR-CODE-RUNTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		CA0F4B7921B8E4C700E8A0E1 /* MemberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCollectionViewCell.swift; sourceTree = "<group>"; };
 		CA0F4B7B21B8EB4400E8A0E1 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		CA0F4B7E21BA353000E8A0E1 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		CAB57D9321B5541000F8C696 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CAB57D9521B5563700F8C696 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 		CAB57D9B21B5580700F8C696 /* MemberManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberManager.swift; sourceTree = "<group>"; };
 		CAB57D9D21B56C0900F8C696 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
@@ -94,9 +94,9 @@
 				CAB57DA121B5737B00F8C696 /* Login */,
 				CAB57DD921B630DD00F8C696 /* QRScan */,
 				CA0F4B7D21B8EC1900E8A0E1 /* Member */,
-				CAB57D9321B5541000F8C696 /* GoogleService-Info.plist */,
 				0BE38D4621BA574C001A3FDC /* splachView.png */,
 				0B6EC4C721B19E2300F523BF /* AppDelegate.swift */,
+				46A6297521BA830F0052768B /* GoogleService-Info.plist */,
 				0B6EC4CB21B19E2300F523BF /* Main.storyboard */,
 				0B6EC4D021B19E2800F523BF /* LaunchScreen.storyboard */,
 				0B6EC4D321B19E2800F523BF /* Info.plist */,
@@ -223,10 +223,10 @@
 			files = (
 				0B6EC4D221B19E2800F523BF /* LaunchScreen.storyboard in Resources */,
 				CA0F4B7F21BA353100E8A0E1 /* icon.png in Resources */,
-				CAB57D9421B5541000F8C696 /* GoogleService-Info.plist in Resources */,
 				0B6EC4CF21B19E2800F523BF /* Assets.xcassets in Resources */,
 				0B6EC4CD21B19E2300F523BF /* Main.storyboard in Resources */,
 				0BE38D4721BA574C001A3FDC /* splachView.png in Resources */,
+				46A6297621BA830F0052768B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +480,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ueao.QR-CODE-RUN";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swimee.QR-CODE-RUN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,7 +499,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ueao.QR-CODE-RUN";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swimee.QR-CODE-RUN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
