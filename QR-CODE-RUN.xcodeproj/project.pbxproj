@@ -13,6 +13,7 @@
 		0B6EC4D221B19E2800F523BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6EC4D021B19E2800F523BF /* LaunchScreen.storyboard */; };
 		0B6EC4DD21B19E2800F523BF /* QR_CODE_RUNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EC4DC21B19E2800F523BF /* QR_CODE_RUNTests.swift */; };
 		0B6EC4E821B19E2800F523BF /* QR_CODE_RUNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EC4E721B19E2800F523BF /* QR_CODE_RUNUITests.swift */; };
+		0BE38D4721BA574C001A3FDC /* splachView.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE38D4621BA574C001A3FDC /* splachView.png */; };
 		3996C702918ECAEC6A40DA1A /* Pods_QR_CODE_RUNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E4F4D4C11588DEF77ABA8F /* Pods_QR_CODE_RUNTests.framework */; };
 		A0FFEBD656AD3B681607EC6F /* Pods_QR_CODE_RUN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB827AF6F0CB0281AC87BB4 /* Pods_QR_CODE_RUN.framework */; };
 		CA0F4B7A21B8E4C700E8A0E1 /* MemberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F4B7921B8E4C700E8A0E1 /* MemberCollectionViewCell.swift */; };
@@ -61,6 +62,7 @@
 		0B6EC4E321B19E2800F523BF /* QR-CODE-RUNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR-CODE-RUNUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6EC4E721B19E2800F523BF /* QR_CODE_RUNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_CODE_RUNUITests.swift; sourceTree = "<group>"; };
 		0B6EC4E921B19E2800F523BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BE38D4621BA574C001A3FDC /* splachView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splachView.png; sourceTree = "<group>"; };
 		1646C56411B87E9C2BFDD393 /* Pods-QR-CODE-RUN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR-CODE-RUN.release.xcconfig"; path = "Pods/Target Support Files/Pods-QR-CODE-RUN/Pods-QR-CODE-RUN.release.xcconfig"; sourceTree = "<group>"; };
 		17E4F4D4C11588DEF77ABA8F /* Pods_QR_CODE_RUNTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_CODE_RUNTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A69BE69161A12CD542A468E /* Pods-QR-CODE-RUNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR-CODE-RUNTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QR-CODE-RUNTests/Pods-QR-CODE-RUNTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				CAB57DD921B630DD00F8C696 /* QRScan */,
 				CA0F4B7D21B8EC1900E8A0E1 /* Member */,
 				CAB57D9321B5541000F8C696 /* GoogleService-Info.plist */,
+				0BE38D4621BA574C001A3FDC /* splachView.png */,
 				0B6EC4C721B19E2300F523BF /* AppDelegate.swift */,
 				0B6EC4CB21B19E2300F523BF /* Main.storyboard */,
 				0B6EC4D021B19E2800F523BF /* LaunchScreen.storyboard */,
@@ -336,6 +339,7 @@
 				CAB57D9421B5541000F8C696 /* GoogleService-Info.plist in Resources */,
 				0B6EC4CF21B19E2800F523BF /* Assets.xcassets in Resources */,
 				0B6EC4CD21B19E2300F523BF /* Main.storyboard in Resources */,
+				0BE38D4721BA574C001A3FDC /* splachView.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
